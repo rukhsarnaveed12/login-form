@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+.form-text{
+    display: none;
+}
+.container{
+    background-image: url(./hell.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form{
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    left: 35%;
+}
+.form-label{
+    font-weight:bold;
+    font-size: 20px;
+}
+.btn-primary{
+    background-color: black;
+    border: none;
+    width: 100px;
+}
+.form{
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+}
+
+@media only screen and (max-width:600px){
+    .form{
+        width: 100%;
+        left: 0;
+    }
+    
+}
+    
